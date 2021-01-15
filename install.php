@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>All Sosmed Downloader Signup - Axa Xyz</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://sosmedownloader.herokuapp.com/favicon.png" rel="icon" type="image/x-icon">
+    <link href="favicon.png" rel="icon" type="image/x-icon">
     <style>
         body, html {
             height: 100%
