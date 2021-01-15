@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>All Sosmed Downloader Signup - Axa Xyz</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <img alt="This Axa Xyz - Axa Xyz" class="logoIMG" src="//4.bp.blogspot.com/-cIOqtgEvp9Q/X_L7ghlZH6I/AAAAAAAAACE/KNSTxg-vzic_WHxezPvX_JszrCSrs698ACK4BGAYYCw/s1600/avatar.jpg">
     <style>
         body, html {
             height: 100%
@@ -131,7 +132,7 @@
     <h1 class="h3 mb-3 font-weight-normal">All Sosmed Downloader Signup - Axa Xyz</h1>
     <p>Version v1.0</p>
     <div class="input-group">
-        <input name="url" type="url" class="form-control" placeholder="Nama Lengkap" required autofocus>
+        <input name="database_host" type="text" class="form-control" placeholder="Nama Lengkap" required>
     </div>
     <hr>
     <input name="purchase_code" type="text" class="form-control" placeholder="Purchase Code" required>
@@ -150,7 +151,7 @@
     <div class="form-check">
         <input class="form-check-input" type="checkbox" id="eulaCheck" required checked disabled>
         <label class="form-check-label" for="eulaCheck">
-            I'm accepting End User License Agreement
+            I'm accepting End User Register Agreement
         </label>
     </div>
     <input name="checksum" type="hidden" value="<?php echo sha1_file(__DIR__ . "/system/action.php") ?>">
