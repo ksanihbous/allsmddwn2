@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>All in One Video Downloader Installer</title>
+    <title>All Sosmed Downloader Signup - Axa Xyz</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body, html {
@@ -128,27 +128,18 @@
     }
     ?>
     <img class="mb-4" src="assets/img/favicon.png" alt="all in one video downloader" width="100" height="100">
-    <h1 class="h3 mb-3 font-weight-normal">AIO Video Downloader Installation</h1>
-    <p>Version <?php echo decode_version($version_code) ?></p>
+    <h1 class="h3 mb-3 font-weight-normal">All Sosmed Downloader Signup - Axa Xyz</h1>
+    <p>Version v1.0</p>
     <div class="input-group">
-        <input name="url" type="url" class="form-control" placeholder="Website URL" required autofocus>
-    </div>
-    <hr>
-    <div class="input-group">
-        <input name="author" type="text" class="form-control" placeholder="Website Owner" required>
-        <input name="email" type="email" class="form-control" placeholder="Owner's E-mail" required>
-    </div>
-    <div class="input-group">
-        <input name="password" type="password" class="form-control" placeholder="Admin Panel Password" required>
-        <input name="password_2" type="password" class="form-control" placeholder="Confirm Password" required>
+        <input name="url" type="url" class="form-control" placeholder="Nama Lengkap" required autofocus>
     </div>
     <hr>
     <input name="purchase_code" type="text" class="form-control" placeholder="Purchase Code" required>
     <hr>
-    <input name="database_host" type="text" class="form-control" placeholder="Database Host" required>
-    <input name="database_name" type="text" class="form-control" placeholder="Database Name" required>
-    <input name="database_user" type="text" class="form-control" placeholder="Database User" required>
-    <input name="database_password" type="password" class="form-control" placeholder="Database Password" required>
+    <input name="database_host" type="text" class="form-control" placeholder="Email" required>
+    <input name="database_name" type="text" class="form-control" placeholder="Username" required>
+    <input name="database_user" type="text" class="form-control" placeholder="Password" required>
+    <input name="database_password" type="password" class="form-control" placeholder="No WhatsApp" required>
     <input name="title" type="hidden" class="form-control" placeholder="Website Title"
            value="All in One Video Downloader" required>
     <input name="description" type="hidden" value="">
@@ -163,8 +154,8 @@
         </label>
     </div>
     <input name="checksum" type="hidden" value="<?php echo sha1_file(__DIR__ . "/system/action.php") ?>">
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Install</button>
-    <p class="mt-5 mb-3 text-muted">&copy; 2018</p>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2021 All Rights Reserved By Axa Xyz</p>
 </form>
 </body>
 </html>
